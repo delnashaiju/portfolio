@@ -1,11 +1,13 @@
 body {
-    background: linear-gradient(to bottom, rgb(170, 189, 197), rgb(186, 161, 161)); 
-    color: rgb(50, 50, 50); 
+    background: #FFE5D9; /* Soft Peach */
+
+
     font-family: Arial, sans-serif;
 }
 
 h1 {
-    color: #2C3E50; 
+    color: #2C3E50; /* Soft White */
+    font-weight: bold;
     font-family:"lora",sans-seif; 
     font-size: 40px; 
     font-weight: 700; 
@@ -25,7 +27,35 @@ h2{
     margin-bottom: 12px;
 }
 p{
-    font-size:19px;
-    margin-top: 0px;
+        font-size:19px;
+        font-family: "lora";
+        
+        line-height: 1.6;
+        
+    }
     
-}
+
+    img {
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        border-radius: 50%;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    img:hover {
+        transform: scale(1.2); /* Zoom effect */
+    }
+    
+    h3{
+    font-size:26px;
+    font-family:"lora",sans-seif; 
+    color: #2C3E50;
+    margin-bottom: 12px;
+    }
+    .container ul{
+        font-size:19px;
+        font-family:"lora";
+
+    }
+   

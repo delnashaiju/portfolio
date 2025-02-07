@@ -7,3 +7,10 @@ Solution: Used CSS classes and adjusted margins.
 Next Steps: Improve responsiveness and add more sections like skills and projects.
 
 
+Day 2: 7/01/2025
+
+Learned: Expanded knowledge on color gradients, table structures, and table borders in HTML and CSS.
+Implemented: Applied color gradients for styling, customized table borders, and structured lists effectively.
+Challenges: Ensuring proper table alignment and maintaining a clean layout while using borders and gradients.
+Solution: Adjusted padding, margins, and border spacing in CSS to achieve a balanced design
+Next Steps: Enhance table styling further, refine gradient transitions, and explore more advanced CSS techniques for a polished look.
