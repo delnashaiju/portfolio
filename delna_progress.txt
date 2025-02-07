@@ -1,0 +1,9 @@
+Day 1:  6/01/2025
+
+Learned: Basic HTML structure, CSS styling, and how to center text.
+Implemented: A gradient background, custom fonts, and header styling.
+Challenges: Aligning the subtitle properly and reducing space between sections.
+Solution: Used CSS classes and adjusted margins.
+Next Steps: Improve responsiveness and add more sections like skills and projects.
+
+

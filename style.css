@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to bottom, rgb(170, 189, 197), rgb(186, 161, 161)); 
+    color: rgb(50, 50, 50); 
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2C3E50; 
+    font-family:"lora",sans-seif; 
+    font-size: 40px; 
+    font-weight: 700; 
+    padding-top: 20px; 
+    letter-spacing: 1.5px;
+    text-align:center;
+}
+
+.subtitle{
+    text-align:center;
+    font-size:19px;
+}
+h2{
+    font-size:26px;
+    font-family:"lora",sans-seif; 
+    color: #2C3E50;
+    margin-bottom: 12px;
+}
+p{
+    font-size:19px;
+    margin-top: 0px;
+    
+}
