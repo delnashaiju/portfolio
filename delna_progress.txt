@@ -14,3 +14,10 @@ Implemented: Applied color gradients for styling, customized table borders, and 
 Challenges: Ensuring proper table alignment and maintaining a clean layout while using borders and gradients.
 Solution: Adjusted padding, margins, and border spacing in CSS to achieve a balanced design
 Next Steps: Enhance table styling further, refine gradient transitions, and explore more advanced CSS techniques for a polished look.
+
+Day 3: 8/01/2025
+
+Learned: Improved CSS positioning and alignment.  
+Implemented: Centered text, spaced boxes, and aligned footer elements.  
+Challenges: Preventing overlap and ensuring balance.  
+Solution: Used `flexbox`, margins, and `position: absolute`.

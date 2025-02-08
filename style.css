@@ -1,61 +1,141 @@
-body {
-    background: #FFE5D9; /* Soft Peach */
-
-
-    font-family: Arial, sans-serif;
+body{
+    background-color:#B29F94;
 }
 
-h1 {
-    color: #2C3E50; /* Soft White */
-    font-weight: bold;
-    font-family:"lora",sans-seif; 
-    font-size: 40px; 
-    font-weight: 700; 
-    padding-top: 20px; 
-    letter-spacing: 1.5px;
-    text-align:center;
-}
-
-.subtitle{
-    text-align:center;
-    font-size:19px;
-}
-h2{
-    font-size:26px;
-    font-family:"lora",sans-seif; 
-    color: #2C3E50;
-    margin-bottom: 12px;
-}
-p{
-        font-size:19px;
-        font-family: "lora";
-        
-        line-height: 1.6;
-        
-    }
+.profile-pic {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 5px solid rgb(227, 212, 212);
+    object-fit: cover;
+    float: right;
     
+    /* Animation */
+    position: relative;
+    top: -50px; /* Start position (above) */
+    opacity: 0; /* Initially hidden */
+    animation: slideDown 1s ease-in-out forwards;
+}
 
-    img {
-        position: absolute;
-        top: 20px;
-        right: 50px;
-        border-radius: 50%;
-        transition: transform 0.3s ease-in-out;
+@keyframes slideDown {
+    from {
+        top: -50px; /* Start from above */
+        opacity: 0;
     }
-    
-    img:hover {
-        transform: scale(1.2); /* Zoom effect */
+    to {
+        top: 0; /* Move to final position */
+        opacity: 1;
     }
-    
-    h3{
-    font-size:26px;
-    font-family:"lora",sans-seif; 
-    color: #2C3E50;
-    margin-bottom: 12px;
-    }
-    .container ul{
-        font-size:19px;
-        font-family:"lora";
+}
+.heading {
+    position: absolute;
+    top: 20%;
+    left: 10%; /* Adjust this value as needed */
+    transform: translateY(-50%);
+    font-size: 90px;
+    color:  #4A2C2A; /* Change if needed */
+}
 
+.text-container {
+    text-align: left;
+    padding-right: 80px;
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: -50%;  /* Start from outside the screen */
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: rgb(251, 249, 249);
+    animation: slideIn 1s ease-out forwards; /* Animation */
+    font-family: 'Playfair Display', serif;
+
+}
+
+@keyframes slideIn {
+    from {
+        left: -50%;  /* Start far left */
+        opacity: 0;  /* Start invisible */
     }
+    to {
+        left: 10%;  /* End at your desired position */
+        opacity: 1;  /* Fully visible */
+    }
+}
+.paragraph {
+    text-align: left;
+    padding-right: 80px;
+    max-width: 70%;
+    position: absolute;
+    top: 70%;
    
+    font-size: 30px;
+    color: rgb(251, 249, 249);
+    
+    font-family:"lora";
+}
+.education-box {
+    position: absolute;
+    top: 20px;
+    right: 450px;
+    background-color: #3d2b1f; /* Dark brown matching the theme */
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Link inside the box */
+.education-box a {
+    text-decoration: none;
+    color: #fff; /* White text */
+}
+
+/* Hover effect */
+.education-box:hover {
+    background-color: #5a4030; /* Slightly lighter brown */
+    transform: scale(1.05);
+}
+.skill-box {
+    position: absolute;
+    top: 20px;
+    right: 600px;
+    background-color: #3d2b1f; /* Dark brown matching the theme */
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Link inside the box */
+.skill-box a {
+    text-decoration: none;
+    color: #fff; /* White text */
+}
+
+/* Hover effect */
+.skill-box:hover {
+    background-color: #5a4030; /* Slightly lighter brown */
+    transform: scale(1.05);
+}
+.contact {
+    position: absolute;
+    bottom: 20px; /* Moves it to the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the whole section */
+    display: flex;
+    gap: 40px; /* Creates space between each contact detail */
+    font-size: 18px;
+    color: #3d2b1f;
+    font-weight: bold;
+}
+
+
+
+
+
